@@ -1,4 +1,5 @@
 FROM rust:1.37.0-slim-stretch
 
-RUN mkdir /usr my_projects
+RUN apt update -y \
+&& apt install -y libpq-dev
 WORKDIR /usr/my_projects
