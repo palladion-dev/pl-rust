@@ -1,0 +1,1 @@
+FROM rust:1.37.0-slim-stretch
