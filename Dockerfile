@@ -1,4 +1,4 @@
-FROM rust:1.37.0-slim-stretch
+FROM rust:1.38.0-slim-stretch
 
 LABEL maintainer="akidsuki <akidsuki@palladion.jp>"
 
